@@ -1,0 +1,133 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "desc" : "Really stupid simple loading of secrets into `hs.settings`. Supports json",
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "Really stupid simple loading of secrets into `hs.settings`. Supports json\nfiles for loading secrets, and json string or table lookup via get.",
+    "Method" : [
+      {
+        "doc" : "Loads a .json file into hs.settings for easy retrieval.\n\nParameters:\n * filename - A string containing the name of a json file (.secrets.json)\n\nReturns:\n * self",
+        "desc" : "Loads a .json file into hs.settings for easy retrieval.",
+        "name" : "start",
+        "stripped_doc" : [
+          "Loads a .json file into hs.settings for easy retrieval.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Secrets:start(filename)",
+        "type" : "Method",
+        "returns" : [
+          " * self"
+        ],
+        "def" : "Secrets:start(filename)",
+        "parameters" : [
+          " * filename - A string containing the name of a json file (.secrets.json)",
+          ""
+        ]
+      },
+      {
+        "doc" : "Returns a value from hs.settings.\n\nParameters:\n * key - A table or string containing the address of something loaded into\n         secrets.\n   * string - dot separated \"json style\" selector\n   * table - the orderd set of keys for the nested selector\n\nReturns:\n * Any",
+        "desc" : "Returns a value from hs.settings.",
+        "name" : "get",
+        "stripped_doc" : [
+          "Returns a value from hs.settings.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Secrets:get(key)",
+        "type" : "Method",
+        "returns" : [
+          " * Any"
+        ],
+        "def" : "Secrets:get(key)",
+        "parameters" : [
+          " * key - A table or string containing the address of something loaded into",
+          "         secrets.",
+          "   * string - dot separated \"json style\" selector",
+          "   * table - the orderd set of keys for the nested selector",
+          ""
+        ]
+      }
+    ],
+    "Field" : [
+
+    ],
+    "items" : [
+      {
+        "doc" : "Returns a value from hs.settings.\n\nParameters:\n * key - A table or string containing the address of something loaded into\n         secrets.\n   * string - dot separated \"json style\" selector\n   * table - the orderd set of keys for the nested selector\n\nReturns:\n * Any",
+        "desc" : "Returns a value from hs.settings.",
+        "name" : "get",
+        "stripped_doc" : [
+          "Returns a value from hs.settings.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Secrets:get(key)",
+        "type" : "Method",
+        "returns" : [
+          " * Any"
+        ],
+        "def" : "Secrets:get(key)",
+        "parameters" : [
+          " * key - A table or string containing the address of something loaded into",
+          "         secrets.",
+          "   * string - dot separated \"json style\" selector",
+          "   * table - the orderd set of keys for the nested selector",
+          ""
+        ]
+      },
+      {
+        "doc" : "Loads a .json file into hs.settings for easy retrieval.\n\nParameters:\n * filename - A string containing the name of a json file (.secrets.json)\n\nReturns:\n * self",
+        "desc" : "Loads a .json file into hs.settings for easy retrieval.",
+        "name" : "start",
+        "stripped_doc" : [
+          "Loads a .json file into hs.settings for easy retrieval.",
+          ""
+        ],
+        "notes" : [
+
+        ],
+        "signature" : "Secrets:start(filename)",
+        "type" : "Method",
+        "returns" : [
+          " * self"
+        ],
+        "def" : "Secrets:start(filename)",
+        "parameters" : [
+          " * filename - A string containing the name of a json file (.secrets.json)",
+          ""
+        ]
+      }
+    ],
+    "Command" : [
+
+    ],
+    "name" : "Secrets"
+  }
+]
