@@ -35,4 +35,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "Secrets.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
